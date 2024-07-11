@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'chinese_rocksregular';
+    src: url('fonts/chinese_rocks_rg-webfont.woff2') format('woff2'),
+         url('fonts/chinese_rocks_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 0;
     display: flex;
@@ -23,4 +32,22 @@ body {
     flex-grow: 1;
     height: 150px;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#logo {
+    margin: auto;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "chinese_rocksregular", sans-serif;
+}
+
+#right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#form {
+    border-top: solid;
+    border-bottom: solid;
 }
