@@ -1,8 +1,8 @@
 # mock-sign-up-form
 
-This is a fake sign-up form I created to practice my HTML Form and CSS styling skills.
+This is a fake sign-up form I created to practice my HTML Form and CSS styling skills. It is not intended to scale on mobile devices.
 
-See the live demo here:
+See the live demo here: https://peterwaterhouse.github.io/mock-sign-up-form/
 
 Photo credit below:
 
